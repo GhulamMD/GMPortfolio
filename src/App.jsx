@@ -3,7 +3,12 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1 className="text-3xl text-grey font-bold underline"> Hello world!</h1>
+      <div className=" text-3xl text-center  bg-slate-400 italic font-bold underline header-components">
+        Header Nav Bar
+        <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+          Rounded Button
+        </button>
+      </div>
     </>
   );
 }
